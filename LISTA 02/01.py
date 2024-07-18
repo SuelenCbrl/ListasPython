@@ -1,0 +1,7 @@
+n1_inteiro = int(input("Digite N1: "))
+n2_inteiro = int(input("DIgite N2: "))
+n3_real = float(input("Digite N3:"))
+m = (n1_inteiro * (n2_inteiro / 2))
+m2 =(3 * n1_inteiro + n3_real)
+m3 = (n3_real * n3_real * n3_real)
+print(f"\n Produto do N1 com metade do N2: {m} \n Soma do triplo do N1 com o N3: {m2} \n O N3 ao cubo: {m3} " )
