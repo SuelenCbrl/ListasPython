@@ -11,7 +11,7 @@ class aluno:
         self.RA = RA
         self.nota = args
 
-    def situation(self):
+    def situacao(self):
         media = sum(self.nota)/len(self.nota)
         if media >=7:
             print("Arovado!")
@@ -33,4 +33,4 @@ n1 =int(input("Digite Nota 1 do aluno: "))
 
 aluno1 = aluno(t,x,n1)
 print(aluno1)
-print(aluno1.situation())
+print(aluno1.situacao())

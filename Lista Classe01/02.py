@@ -8,10 +8,13 @@ class livros:
         self.autor = autor
         self.editora = editora
         self.paginas =paginas
+
     def editar_editora(self,novaeditora):
         self.editora = novaeditora
+
     def mostrar_nome(self):
         return self.nome_Livro
+    
     def __str__(self):
         return f'Nome do Livro:{self.nome_Livro}, Autor:{self.autor}, editora:{self.editora}, quantodade de paginas:{self.paginas}'
 

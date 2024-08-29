@@ -6,7 +6,7 @@ class Aluno:
         self.nota = nota
     
     def hello(self):        ##METODO DA CLASSE
-        print(f"Hello {self.nome}")
+        print(f"Hello {self.__nome}")
 
     def getIdade(self):
         return self.idade
